@@ -79,7 +79,7 @@ p {
 }
 
 .project-list {
-    border: 4px solid red;
+    /* border: 4px solid red; */
     text-align: center;
     padding: 3rem 2rem;
     
@@ -105,6 +105,9 @@ p {
     margin-bottom: 6rem
     
  }
+ .projects-grid a{
+    text-decoration: none;
+ }
  @media (max-width: 30.62em) {
     .projects-section {
       padding: 6rem 1rem;
@@ -123,13 +126,67 @@ p {
  .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+    
 }
-
-
-
+/* la parte de contacto/ conversemos! */
 .contact {
-    border: 4px solid lime;
-}
+    /* border: 4px solid lime; */
+    margin-block-end: 5em;
+  }
+.form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+
 .footer {
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;  
+    width: 100%;
+    
+    
 }
+footer a:hover {
+    background-color: yellowgreen;
+    color: rgb(17, 148, 17);                 /* #181719;*/
+    font-weight: bold;
+    border: 3px double yellowgreen;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer p:hover {
+    transform: translateY(4px);
+    background-color: yellowgreen;
+}
+
